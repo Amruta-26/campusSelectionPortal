@@ -1,0 +1,33 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    background: linear-gradient(30deg, rgb(2, 99, 99), black);
+    width: 100%;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .navbar .nav-item {
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-block: 20px;
+    padding-block: 10px;
+    padding-inline: 20px;
+    border-radius: 5px;
+  }
+  
+  .navbar .nav-item:hover{
+    background: rgba(0, 0, 0, 0.3);
+  }
